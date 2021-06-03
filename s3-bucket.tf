@@ -4,7 +4,7 @@ module "s3-bucket" {
   # insert required variables here
 
   bucket_prefix = "${var.prefix}"
-  bucket = "Gaurav-s3-bucket"
+ # bucket = "Gaurav-s3-bucket"
   acl    = "private"
 
   versioning = {
